@@ -12,7 +12,7 @@ makedocs(;
     sitename="MyTestPackage.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://fieldofnodes.github.io/VeriQuEST.jl",
+        canonical="https://fieldofnodes.github.io/MyTestPackage.jl",
         assets=String[],
         size_threshold = 1_000_000,
     ),

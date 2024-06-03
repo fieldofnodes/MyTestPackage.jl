@@ -7,4 +7,4 @@
 
 ## Test package
 
-No real content
+No real content, this is a package to be a baseline.

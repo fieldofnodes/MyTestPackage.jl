@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"","page":"Home","title":"Home","text":"CurrentModule = MyTestPackage","category":"page"},{"location":"#MyTestPackage","page":"Home","title":"MyTestPackage","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"Documentation for MyTestPackage.","category":"page"},{"location":"#This-is-a-test","page":"Home","title":"This is a test","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"I am writing this content to test.","category":"page"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"","page":"Home","title":"Home","text":"Modules = [MyTestPackage]","category":"page"}]
+}

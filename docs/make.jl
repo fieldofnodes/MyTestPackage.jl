@@ -3,12 +3,10 @@ using Documenter
 
 DocMeta.setdocmeta!(MyTestPackage, :DocTestSetup, :(using MyTestPackage); recursive=true)
 
-
-
-
 makedocs(;
     modules=[MyTestPackage],
-    authors="Jonathan Miller jonathan.miller@fieldofnodes.com",
+    authors="Jonathan Miller",
+    repo="https://github.com/fieldofnodes/MyTestPackage.jl/blob/{commit}{path}#{line}",
     sitename="MyTestPackage.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
@@ -18,12 +16,19 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "User Guide" => [
+            "Getting Started" => "user/getting_started.md",
+            "Features" => "user/features.md",
+            "Examples" => "user/examples.md",
+        ],
+        "References" => 
+            ["API" => "references/api.md"]
     ],
 )
 
 deploydocs(;
-    repo="github.com/fieldofnodes/MyTestPackage.jl",
-    devbranch="main",
+    repo="github.com/fieldofnodes/MyTestPackage.jl", 
+    devbranch = "main",
     devurl="dev",
     target = "build",
     branch = "gh-pages",

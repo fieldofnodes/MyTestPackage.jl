@@ -2,5 +2,5 @@ using MyTestPackage
 using Test
 
 @testset "MyTestPackage.jl" begin
-    # Write your tests here.
+    @test !ismissing(generic_function())
 end

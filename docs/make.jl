@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/fieldofnodes/MyTestPackage.jl",
+    repo="github.com/fieldofnodes/MyTestPackage.jl.git",
     devbranch="main",
 )

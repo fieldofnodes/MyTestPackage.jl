@@ -15,15 +15,7 @@ makedocs(;
         size_threshold = 1_000_000,
     ),
     pages=[
-        "Home" => "index.md",
-        "User Guide" => [
-            "Getting Started" => "user/getting_started.md",
-            "Features" => "user/features.md",
-            "Examples" => "user/examples.md",
-        ],
-        "References" => 
-            ["API" => "references/api.md"]
-    ],
+        "Home" => "index.md"],
 )
 
 deploydocs(;
